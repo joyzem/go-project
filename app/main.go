@@ -1,5 +1,11 @@
 package main
 
+import (
+	"fmt"
+	"main/models/Proxy"
+)
+
 func main() {
-	docCreate()
+	proxy := Proxy.Proxy{Id: "1"}
+	fmt.Println(proxy)
 }
